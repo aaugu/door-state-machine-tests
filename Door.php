@@ -74,7 +74,7 @@
 					echo "Cannot unlock a door that is open\n";
 					break;
 				case DoorState::Closed:
-					echo "Cannot open a door that is already opem\n";
+					echo "Cannot unlock a door that is already ope\n";
 					break;
 				case DoorState::Locked:
 					$this->_state = DoorState::Closed;
